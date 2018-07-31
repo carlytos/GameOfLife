@@ -1,0 +1,53 @@
+body {
+    background-color: #2B2E34;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: greenyellow;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.tablero {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.reglas {
+    margin: 35px;
+}
+
+#columna {
+    width: 20px;
+    height: 600px;
+    display: table-cell;
+}
+
+#casilla {
+    border: 1px solid rgb(0, 0, 0);
+    width: 18px;
+    height: 18px;
+    margin: 0px!important;
+}
+
+.enabled {
+    background-color: greenyellow;
+}
+
+.disabled {
+    background-color: #ccc;
+}
+
+.play {
+    margin-top: 20px;
+}
